@@ -26,7 +26,7 @@
             <element id="module-output" name="b-common" />
           </element>
           <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.20" />
-          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:1.5.10.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-actuator:1.5.10.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter:1.5.10.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-logging:1.5.10.RELEASE" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.1.11" />
@@ -35,6 +35,9 @@
           <element id="library" level="project" name="Maven: org.slf4j:log4j-over-slf4j:1.7.25" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.14.RELEASE" />
           <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.17" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-actuator:1.5.10.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.14.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:1.5.10.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:1.5.10.RELEASE" />
           <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.27" />
           <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-annotations-api:8.5.27" />
@@ -50,7 +53,6 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.14.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.14.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.14.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.14.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.14.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.14.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:1.5.10.RELEASE" />

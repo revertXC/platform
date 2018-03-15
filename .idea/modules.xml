@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/f-controller/f-controller.iml" filepath="$PROJECT_DIR$/f-controller/f-controller.iml" />
       <module fileurl="file://$PROJECT_DIR$/g-webapp/g-webapp.iml" filepath="$PROJECT_DIR$/g-webapp/g-webapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/platform.iml" filepath="$PROJECT_DIR$/platform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-activemq/z-activemq.iml" filepath="$PROJECT_DIR$/z-activemq/z-activemq.iml" />
       <module fileurl="file://$PROJECT_DIR$/z-activiti5/z-activiti5.iml" filepath="$PROJECT_DIR$/z-activiti5/z-activiti5.iml" />
       <module fileurl="file://$PROJECT_DIR$/z-quzrtz/z-quzrtz.iml" filepath="$PROJECT_DIR$/z-quzrtz/z-quzrtz.iml" />
       <module fileurl="file://$PROJECT_DIR$/z-shiro/z-shiro.iml" filepath="$PROJECT_DIR$/z-shiro/z-shiro.iml" />

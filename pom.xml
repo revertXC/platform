@@ -16,6 +16,7 @@
         <module>z-activiti5</module>
         <module>z-quzrtz</module>
         <module>z-shiro</module>
+        <module>z-activemq</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -36,6 +37,11 @@
   </properties>
 
   <dependencies>
+       <!--https://segmentfault.com/a/1190000004318360?_ea=568366-->
+      <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-actuator</artifactId>
+      </dependency>
       <!-- springBoot  Start-->
       <dependency>
           <groupId>org.springframework.boot</groupId>

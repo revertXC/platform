@@ -14,6 +14,7 @@
         <module name="e-service" />
         <module name="f-controller" />
         <module name="g-webapp" />
+        <module name="z-activemq" />
         <module name="z-activiti5" />
         <module name="z-quzrtz" />
         <module name="z-shiro" />
@@ -29,8 +30,9 @@
       <module name="f-controller" target="1.6" />
       <module name="g-webapp" target="1.6" />
       <module name="platform" target="1.6" />
+      <module name="z-activemq" target="1.6" />
       <module name="z-activiti5" target="1.6" />
-      <module name="z-quzrtz" target="1.6" />
+      <module name="z-quzrtz" target="1.8" />
       <module name="z-shiro" target="1.6" />
     </bytecodeTargetLevel>
   </component>
