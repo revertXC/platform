@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/a-combination" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c-model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/d-mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/f-controller" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/g-webapp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/g-webapp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-activiti5" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-quzrtz" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-shiro" charset="UTF-8" />
+  </component>
+</project>

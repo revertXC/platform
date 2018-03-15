@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="a-combination" />
+        <module name="a-common" />
+        <module name="b-common" />
+        <module name="c-model" />
+        <module name="d-mapper" />
+        <module name="e-service" />
+        <module name="f-controller" />
+        <module name="g-webapp" />
+        <module name="z-activiti5" />
+        <module name="z-quzrtz" />
+        <module name="z-shiro" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="a-combination" target="1.6" />
+      <module name="a-common" target="1.6" />
+      <module name="b-common" target="1.6" />
+      <module name="c-model" target="1.6" />
+      <module name="d-mapper" target="1.6" />
+      <module name="e-service" target="1.6" />
+      <module name="f-controller" target="1.6" />
+      <module name="g-webapp" target="1.6" />
+      <module name="platform" target="1.6" />
+      <module name="z-activiti5" target="1.6" />
+      <module name="z-quzrtz" target="1.6" />
+      <module name="z-shiro" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

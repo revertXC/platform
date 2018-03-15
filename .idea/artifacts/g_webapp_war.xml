@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="g-webapp:war">
+    <output-path>$PROJECT_DIR$/g-webapp/target</output-path>
+    <root id="archive" name="g-webapp.war">
+      <element id="artifact" artifact-name="g-webapp:war exploded" />
+    </root>
+  </artifact>
+</component>

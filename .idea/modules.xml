@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/a-combination/a-combination.iml" filepath="$PROJECT_DIR$/a-combination/a-combination.iml" />
+      <module fileurl="file://$PROJECT_DIR$/b-common/b-common.iml" filepath="$PROJECT_DIR$/b-common/b-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c-model/c-model.iml" filepath="$PROJECT_DIR$/c-model/c-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/d-mapper/d-mapper.iml" filepath="$PROJECT_DIR$/d-mapper/d-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e-service/e-service.iml" filepath="$PROJECT_DIR$/e-service/e-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/f-controller/f-controller.iml" filepath="$PROJECT_DIR$/f-controller/f-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/g-webapp/g-webapp.iml" filepath="$PROJECT_DIR$/g-webapp/g-webapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform.iml" filepath="$PROJECT_DIR$/platform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-activiti5/z-activiti5.iml" filepath="$PROJECT_DIR$/z-activiti5/z-activiti5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-quzrtz/z-quzrtz.iml" filepath="$PROJECT_DIR$/z-quzrtz/z-quzrtz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-shiro/z-shiro.iml" filepath="$PROJECT_DIR$/z-shiro/z-shiro.iml" />
+    </modules>
+  </component>
+</project>
