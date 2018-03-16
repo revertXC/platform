@@ -1,4 +1,4 @@
-package com.deer.activemq;
+package com.deer.activemq.demo;
 
 import javax.jms.JMSException;
 import javax.jms.Message;

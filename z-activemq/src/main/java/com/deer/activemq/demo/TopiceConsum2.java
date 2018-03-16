@@ -1,9 +1,9 @@
-package com.deer.activemq;
+package com.deer.activemq.demo;
 
 import javax.jms.JMSException;
 import javax.jms.TextMessage;
 
-public class TopiceConsum extends BaseObject {
+public class TopiceConsum2 extends BaseObject {
 
     public static void main(String[] args) throws JMSException {
         //创建一个连接HelloWorld的消息队列

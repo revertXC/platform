@@ -1,11 +1,11 @@
-package com.deer.activemq;
+package com.deer.activemq.demo;
 
 import org.apache.activemq.ActiveMQConnection;
 import org.apache.activemq.ActiveMQConnectionFactory;
 
 import javax.jms.*;
 
-public class Production{
+public class BaseObject {
 
     //默认连接用户名
     private static final String USERNAME = ActiveMQConnection.DEFAULT_USER;
@@ -42,18 +42,5 @@ public class Production{
         }
     }
 
-    public static void main(String[] args) throws JMSException {
-        //创建一个名称为HelloWorld的消息队列
-        destination = session.createQueue("HelloWorld");
-        //创建消息生产者
-        messageProducer = session.createProducer(destination);
 
-        for(int i=0 ; i<100 ;i++){
-            Message message = session.createTextMessage("聪哥发送了10条信息 Queue"+i);
-            messageProducer.send(message);
-        }
-        session.commit();
-        session.close();
-        connection.close();
-    }
 }

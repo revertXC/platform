@@ -1,11 +1,11 @@
-package com.deer.activemq;
+package com.deer.activemq.demo;
 
 import org.apache.activemq.ActiveMQConnection;
 import org.apache.activemq.ActiveMQConnectionFactory;
 
 import javax.jms.*;
 
-public class BaseObject {
+public class Consumption {
 
     //默认连接用户名
     private static final String USERNAME = ActiveMQConnection.DEFAULT_USER;
@@ -42,5 +42,16 @@ public class BaseObject {
         }
     }
 
-
+    public static void main(String[] args) throws JMSException {
+        //创建一个连接HelloWorld的消息队列
+        destination = session.createQueue("HelloWorld");
+        //创建消息消费者
+        messageConsumer = session.createConsumer(destination);
+        while (true) {
+            TextMessage message = (TextMessage) messageConsumer.receive(5000);
+            if(message != null){
+                System.out.println("收到的消息:" + message.getText());
+            }
+        }
+    }
 }
