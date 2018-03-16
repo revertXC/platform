@@ -33,10 +33,10 @@
             <!--<artifactId>z-shiro</artifactId>-->
             <!--<version>1.0-SNAPSHOT</version>-->
         <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>xc</groupId>-->
-            <!--<artifactId>z-activemq</artifactId>-->
-            <!--<version>1.0-SNAPSHOT</version>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>xc</groupId>
+            <artifactId>z-activemq</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 </project>

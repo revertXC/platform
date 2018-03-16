@@ -19,6 +19,16 @@
     <orderEntry type="module" module-name="d-mapper" />
     <orderEntry type="module" module-name="c-model" />
     <orderEntry type="module" module-name="a-combination" />
+    <orderEntry type="module" module-name="z-activemq" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-activemq:1.5.10.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-jms:4.3.14.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-messaging:4.3.14.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.activemq:activemq-broker:5.14.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.activemq:activemq-client:5.14.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.geronimo.specs:geronimo-jms_1.1_spec:1.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.fusesource.hawtbuf:hawtbuf:1.11" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.activemq:activemq-openwire-legacy:5.14.5" level="project" />
     <orderEntry type="module" module-name="b-common" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.20" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-actuator:1.5.10.RELEASE" level="project" />
