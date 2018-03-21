@@ -1,8 +1,9 @@
 package com.deer.shiro.config.config;
 
 import com.deer.common.config.dataSources.mysql.DataSourceConfig;
-import com.deer.shiro.realm.MyShiroRealm;
+import com.deer.shiro.config.realm.MyShiroRealm;
 import org.apache.shiro.cache.ehcache.EhCacheManager;
+import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.spring.LifecycleBeanPostProcessor;
 import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
@@ -73,7 +74,7 @@ public class ShiroConfig {
     }
 
     @Bean
-    public ShiroFilterFactoryBean shiroFilter(@Qualifier("securityManager") java.lang.SecurityManager manager) {
+    public ShiroFilterFactoryBean shiroFilter(@Qualifier("securityManager") SecurityManager manager) {
         /*- anon:所有url都都可以匿名访问
             - authc: 需要认证才能进行访问
             - user:配置记住我或认证通过可以访问*/
@@ -107,7 +108,7 @@ public class ShiroConfig {
     }
 
     @Bean(name = "securityManager")
-    public java.lang.SecurityManager securityManager(){
+    public SecurityManager securityManager(){
         DefaultWebSecurityManager securityManager =  new DefaultWebSecurityManager();
         securityManager.setRealm(myShiroRealm());
         securityManager.setCacheManager(ehCacheManager());
